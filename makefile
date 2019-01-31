@@ -1,6 +1,6 @@
-sum : Sample.o
+sum : main.o
 	cc -o sum Sample.c
-Sample.o : Sample.c
+main.o : Sample.c
 	cc -c Sample.c
 install :
 	./sum
